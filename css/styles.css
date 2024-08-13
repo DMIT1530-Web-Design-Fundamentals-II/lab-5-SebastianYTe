@@ -13,6 +13,40 @@ body {
     font: 1rem/1.5 "Lato", Arial, sans-serif;
 }
 
+h1 {
+    font-family: 'Hurricane', cursive;
+    color: var(--pop);
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 2rem;
+    color: var(--accent);
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--dark);
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent);
+}
+
+.btn {
+    background-color: var(--accent);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: var(--hover);
+}
+
 /* Utility Classes */
 
 .inner-container {
